@@ -23,6 +23,9 @@ module.exports = {
   manifest: {
     name: 'PWA rocks!',
   },
+  modules: [
+    '@nuxtjs/pwa',
+  ],
   build: {
     /*
     ** Run ESLint on save
