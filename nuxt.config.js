@@ -24,8 +24,18 @@ module.exports = {
     name: 'PWA rocks!',
   },
   modules: [
+    '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
   ],
+  oneSignal: {
+    init: {
+      appId: 'a90f3e18-9125-42fc-9c75-597b18b21423',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+        disable: false
+      }
+    }
+  },
   build: {
     /*
     ** Run ESLint on save
