@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        nuxt-pwa
+        PWA rocks!
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        powered by Nuxt.js
       </h2>
       <div class="links">
         <a
