@@ -3,18 +3,15 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        PWA rocks!
+        Page 2
       </h1>
-      <h2 class="subtitle">
-        powered by Nuxt.js
-      </h2>
       <div class="links">
         <a
-          href="/page1"
-          class="button--green">Page 1</a>
+          href="/"
+          class="button--green">Home</a>
         <a
-          href="/page2"
-          class="button--grey">Page 2</a>
+          href="/page1"
+          class="button--grey">Page 1</a>
       </div>
     </div>
   </section>
