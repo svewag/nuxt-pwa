@@ -9,12 +9,12 @@
         powered by Nuxt.js
       </h2>
       <div class="links">
-        <a
-          href="/page1"
-          class="button--green">Page 1</a>
-        <a
-          href="/page2"
-          class="button--grey">Page 2</a>
+        <nuxt-link
+          to="/page1"
+          class="button--green">Page 1</nuxt-link>
+        <nuxt-link
+          to="/page2"
+          class="button--grey">Page 2</nuxt-link>
       </div>
     </div>
   </section>

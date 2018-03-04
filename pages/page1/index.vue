@@ -6,12 +6,12 @@
         Page 1
       </h1>
       <div class="links">
-        <a
-          href="/"
-          class="button--green">Home</a>
-        <a
-          href="/page2"
-          class="button--grey">Page 2</a>
+        <nuxt-link
+          to="/"
+          class="button--green">Home</nuxt-link>
+        <nuxt-link
+          to="/page2"
+          class="button--grey">Page 2</nuxt-link>
       </div>
     </div>
   </section>
